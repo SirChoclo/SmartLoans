@@ -5,18 +5,20 @@ import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
+import GenericSection from '../components/sections/GenericSection';
 
 const ContactPage = () => {
 
   return (
     <>
-      <Hero className="illustration-section-01" />
-      {/* <FeaturesTiles /> */}
-      {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
-      {/* <Testimonial topDivider /> */}
-      <Cta split />
+    <GenericSection children={
+      <>
+      <h2>Get in touch with us!</h2>
+      <p>If you'd like to learn more, we'd love to hear from you</p>
+      </>
+    }/>
+    <Cta split />
     </>
   );
 }
-
 export default ContactPage;
