@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const SectionShared = {
   types: {
     topOuterDivider: PropTypes.bool,
-    bottomOuterDivider: PropTypes.bool,    
+    bottomOuterDivider: PropTypes.bool,
     topDivider: PropTypes.bool,
     bottomDivider: PropTypes.bool,
     hasBgColor: PropTypes.bool,
@@ -12,7 +12,7 @@ const SectionShared = {
   },
   defaults: {
     topOuterDivider: false,
-    bottomOuterDivider: false,    
+    bottomOuterDivider: false,
     topDivider: false,
     bottomDivider: false,
     hasBgColor: false,
@@ -57,5 +57,15 @@ export const SectionTilesProps = {
   defaults: {
     ...SectionShared.defaults,
     pushLeft: false
+  }
+}
+
+// Section tiles props
+export const ProcessProps = {
+  types: {
+    ...SectionShared.types,
+  },
+  defaults: {
+    ...SectionShared.defaults,
   }
 }

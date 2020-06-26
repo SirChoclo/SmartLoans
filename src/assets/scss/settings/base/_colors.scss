@@ -65,7 +65,7 @@ $icon--color: (
 	social-hover: 			get-color(primary, 2),			// social icons (:hover)
 	modal:					get-color(light, 3),			// modal icon
 	modal-hover:			get-color(light, 2),			// modal icon (:hover)
-    news-more:			    get-color(primary, 2),		// news - read more link arrow    
+    news-more:			    get-color(primary, 2),		// news - read more link arrow
 	// ↓ Inverted colors
 	hamburger-inverse:		get-color(dark, 2),				// hamburger icon
 	accordion-inverse:		get-color(primary, 1),			// accordion icon
@@ -75,11 +75,11 @@ $icon--color: (
 
 // Misc elements: background color
 $bg--color: (
-	body: 			get-color(dark, 1),
-	body-shadow:	0 20px 48px rgba(get-color(dark, 1), .8),	// body shadow when a boxed layout is used (set to null if don't want a shadow)
-	body-outer:		lighten(get-color(dark, 1), 2%),			// outer bg color when a boxed layout is used
-	bg-color: 		lighten(get-color(light, 1), 9%),			// .has-bg-color helper class
-	shadow: 		0 24px 64px rgba(get-color(dark, 1), .64),	// .has-shadow helper class
-	code: 			darken(get-color(dark, 1), 3%),
-	code-inverse:	darken(get-color(dark, 1), 3%)
+	body: 			get-color(light, 1),
+	body-shadow:	0 20px 48px rgba(get-color(light, 1), .8),	// body shadow when a boxed layout is used (set to null if don't want a shadow)
+	body-outer:		lighten(get-color(light, 1), 2%),			// outer bg color when a boxed layout is used
+	bg-color: 		lighten(get-color(dark, 1), 9%),			// .has-bg-color helper class
+	shadow: 		0 24px 64px rgba(get-color(light, 1), .64),	// .has-shadow helper class
+	code: 			darken(get-color(light, 1), 3%),
+	code-inverse:	darken(get-color(light, 1), 3%)
 );
