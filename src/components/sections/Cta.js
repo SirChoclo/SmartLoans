@@ -53,9 +53,15 @@ const Cta = ({
           className={innerClasses}
         >
           <div className="cta-action">
-            <Input id="newsletter" type="email" labelHidden hasIcon="right" placeholder="Your best email" />
-            <Input id="newsletter" type="subject"labelHidden hasIcon="right" placeholder="Email subject" />
-            <Input id="newsletter" type="subject"labelHidden hasIcon="right" placeholder="Your message here" />
+            <div style={{padding:2}}>
+              <Input id="newsletter" type="email" labelHidden hasIcon="right" placeholder="Your best email" />
+            </div>
+            <div style={{padding:2}}>
+              <Input id="newsletter" type="subject"labelHidden hasIcon="right" placeholder="Email subject" />
+            </div>
+            <div style={{padding:2}}>
+             <Input id="newsletter" type="subject"labelHidden hasIcon="right" placeholder="Your message here" />
+            </div>
             <Button tag="a" color="dark" wideMobile href="https://cruip.com/">
               Send
             </Button>
