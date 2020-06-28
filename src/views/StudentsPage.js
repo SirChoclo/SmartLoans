@@ -1,22 +1,18 @@
 import React from 'react';
 // import sections
-import Hero from '../components/sections/Hero';
-import FeaturesTiles from '../components/sections/FeaturesTiles';
-import FeaturesSplit from '../components/sections/FeaturesSplit';
-import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
+import GenericSection from '../components/sections/GenericSection';
+import StudentPains from '../components/sections/students/StudentPains';
+import StudentIconAttribution from '../components/sections/students/StudentIconAttribution';
 
-const StudentsPage = () => {
-
-  return (
-    <>
-      <Hero className="illustration-section-01" />
-      {/* <FeaturesTiles /> */}
-      {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
-      {/* <Testimonial topDivider /> */}
-      <Cta split />
-    </>
-  );
-}
+const StudentsPage = () => (
+  <>
+    <GenericSection>
+      <StudentPains />
+    </GenericSection>
+    <Cta topDivider bottomDivider />
+    <StudentIconAttribution />
+  </>
+);
 
 export default StudentsPage;
