@@ -17,7 +17,7 @@ const ContactPage = () => {
       <p>If you'd like to learn more, we'd love to hear from you</p>
       </>
     }/>
-    <Cta split />
+    <Cta />
     </>
   );
 }
