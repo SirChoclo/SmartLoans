@@ -57,18 +57,22 @@ const InvestorCall = ({
           <div className={innerClasses}>
             <div className={splitClasses}>
               <h1>Investors, listen up!</h1>
-              <p>We have an exciting new way to invest.</p>
+              <h3>We have an exciting new way to invest with...</h3>
               <div className="split-item">
                 <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                   <h3 className="mt-0 mb-12">
-                    Control over your investment.
+                    Diversity and Flexibility.
                   </h3>
-                  <p className="m-0">
+                  <p className="m-0 text-sm">
                     Your money will directly fund students <br/> seeking loans for costly higher education expenses.<br/>
                   </p>
                   <br/>
-                  <p>
-                    Join our platform to view student profiles and <br/> choose the funds whose story speaks most to you.<br/>
+                  <p className="m-0 text-sm">
+                    A joint fund for a community of students is split into Notes which are available for investors to add to their portfolio.
+                  </p>
+                  <br/>
+                  <p className="m-0 text-sm">
+                    Join our platform to view student profiles, and <br/> invest in funds whose story speaks most to you.<br/>
                   </p>
                 </div>
                 <div
@@ -94,13 +98,13 @@ const InvestorCall = ({
                   <h3 className="mt-0 mb-12">
                     Competitive returns.
                   </h3>
-                  <p className="m-0">
+                  <p className="m-0 text-sm">
                     When students start paying back their loans,{' '}
                     investors are issued monthly payments of principal and interest.{' '}
                     Students project to earn income that could yield between 5 - 8% of returns for investors.
                   </p>
                   <br/>
-                  <p>
+                  <p className="m-0 text-sm">
                     It's not only a socially impactful investment. <br/>
                     It's a smart investment.
                   </p>
@@ -116,9 +120,9 @@ const InvestorCall = ({
               <div className="split-item">
                 <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                   <h3 className="mt-0 mb-12">
-                    Join our community.
+                    A Community.
                   </h3>
-                  <p className="m-0">
+                  <p className="m-0 text-sm">
                     SmartLoans holds events, not only for students, but for investors too. By investing, you automatically receive membership to our network and community benefits.
                   </p>
                 </div>

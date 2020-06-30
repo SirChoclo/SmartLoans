@@ -67,7 +67,6 @@ const Process = ({
                 </h4>
                 <p className="m-0 text-sm">
                 Diversify your portfolio with investments in students with future earning potential.
-                We call them SmartLoans Notes.
                 </p>
               </div>
             </div>
