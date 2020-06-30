@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
-import NewFooter from '../components/layout/NewFooter';
 
 const LayoutDefault = ({ children }) => (
   <>
@@ -10,7 +9,6 @@ const LayoutDefault = ({ children }) => (
       {children}
     </main>
     {/* <Footer /> */}
-    {/* <NewFooter /> */}
   </>
 );
 
