@@ -4,6 +4,8 @@ import React from 'react';
 import Cta from '../components/sections/Cta';
 import GenericSection from '../components/sections/GenericSection';
 import Process from '../components/sections/investors/Process';
+import InvestorCall from '../components/sections/investors/InvestorCall';
+
 
 const InvestorsPage = () => {
 
@@ -23,6 +25,7 @@ const InvestorsPage = () => {
       {/* <FeaturesTiles /> */ }
       {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
       {/* <Testimonial topDivider /> */}
+      <InvestorCall />
       <Cta />
     </>
   );

@@ -62,11 +62,12 @@ const Process = ({
                 </div>
               </div>
               <div className="features-tiles-item-content">
-                <h4 className="mt-0 mb-8">
-                Investors Sponsor Students
+                <h4 className="mt-8 mb-8">
+                Introducing a <br/> New Way to Invest
                 </h4>
                 <p className="m-0 text-sm">
                 Diversify your portfolio with investments in students with future earning potential.
+                We call them SmartLoans Notes.
                 </p>
               </div>
             </div>
@@ -109,6 +110,9 @@ const Process = ({
                   </h4>
                   <p className="m-0 text-sm">
                     Students pay back their loans and investors are paid back too.
+                  </p>
+                  <p className="m-0 text-sm">
+                    We are a community that grows together. Learn more.
                   </p>
                 </div>
               </div>
