@@ -17,7 +17,7 @@ const InvestorsPage = () => {
           <span className="text-color-primary">SmartLoans</span>
         </h1>
         <h3 className="m-0 mb-8 reveal-from-bottom" data-reveal-delay="500">
-          Investing in Student Futures.
+          Investing in Students' Futures
         </h3>
         </>
       } />
